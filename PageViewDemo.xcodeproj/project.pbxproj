@@ -15,6 +15,9 @@
 		AE990A111CCB5C400002726D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE990A0F1CCB5C400002726D /* LaunchScreen.storyboard */; };
 		AE990A1C1CCB5C400002726D /* PageViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE990A1B1CCB5C400002726D /* PageViewDemoTests.m */; };
 		AE990A271CCB5C400002726D /* PageViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE990A261CCB5C400002726D /* PageViewDemoUITests.m */; };
+		AE990A401CCB5E650002726D /* PageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE990A3D1CCB5E650002726D /* PageView.m */; };
+		AE990A411CCB5E650002726D /* UIColor+Calculate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE990A3F1CCB5E650002726D /* UIColor+Calculate.m */; };
+		AE990A441CCB5F6D0002726D /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = AE990A431CCB5F6D0002726D /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		AE990A221CCB5C400002726D /* PageViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE990A261CCB5C400002726D /* PageViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewDemoUITests.m; sourceTree = "<group>"; };
 		AE990A281CCB5C400002726D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE990A3C1CCB5E650002726D /* PageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageView.h; sourceTree = "<group>"; };
+		AE990A3D1CCB5E650002726D /* PageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageView.m; sourceTree = "<group>"; };
+		AE990A3E1CCB5E650002726D /* UIColor+Calculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Calculate.h"; sourceTree = "<group>"; };
+		AE990A3F1CCB5E650002726D /* UIColor+Calculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Calculate.m"; sourceTree = "<group>"; };
+		AE990A421CCB5F6D0002726D /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		AE990A431CCB5F6D0002726D /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,7 @@
 		AE990A001CCB5C400002726D /* PageViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AE990A3B1CCB5E650002726D /* PageView */,
 				AE990A041CCB5C400002726D /* AppDelegate.h */,
 				AE990A051CCB5C400002726D /* AppDelegate.m */,
 				AE990A071CCB5C400002726D /* ViewController.h */,
@@ -138,6 +148,19 @@
 				AE990A281CCB5C400002726D /* Info.plist */,
 			);
 			path = PageViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		AE990A3B1CCB5E650002726D /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				AE990A3C1CCB5E650002726D /* PageView.h */,
+				AE990A3D1CCB5E650002726D /* PageView.m */,
+				AE990A3E1CCB5E650002726D /* UIColor+Calculate.h */,
+				AE990A3F1CCB5E650002726D /* UIColor+Calculate.m */,
+				AE990A421CCB5F6D0002726D /* UIView+Frame.h */,
+				AE990A431CCB5F6D0002726D /* UIView+Frame.m */,
+			);
+			path = PageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,8 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE990A441CCB5F6D0002726D /* UIView+Frame.m in Sources */,
 				AE990A091CCB5C400002726D /* ViewController.m in Sources */,
+				AE990A401CCB5E650002726D /* PageView.m in Sources */,
 				AE990A061CCB5C400002726D /* AppDelegate.m in Sources */,
+				AE990A411CCB5E650002726D /* UIColor+Calculate.m in Sources */,
 				AE990A031CCB5C400002726D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
